@@ -1,0 +1,19 @@
+{
+    "name": "bi/scratchcardtest",
+    "description": "Scratch card programming Kata",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Bi\\Scratchcardtest\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
+    },
+    "bin": [
+        "bin/run_score.php"
+    ],
+    "scripts": {
+        "run-score": "php bin/run_score.php bin/input.txt"
+    }
+}
