@@ -1,5 +1,5 @@
 
-Your solution was so useful that it's been purchased by the company **'Scratchcards R U'**, for a large fee, they would like to hire you as a contractor to continue expanding the functionality. Before you accept this offer, they have the following business expansion proposals below, they would like to know roughly how you might implement them and how long it would take:
+Your solution was so useful that it's been purchased by the company **'Scratchcards R U'**, for a large fee, they would like to hire you as a contractor to continue expanding the functionality. Before you accept this offer, they have the following business expansion proposals below, they would like to know roughly how you might implement them and how long it would take, or what research wou might need to do. Please provide some answers to the following questions:
 
 ---
 
@@ -46,3 +46,7 @@ User 2 sees Scratchards with S >= 16 at a rate of P = 0.20 (1 in 5), where S = 1
 
 **How would you design this?**  
 **How could we allow other AI agents to communicate with the scratchcard functionality?**
+
+### 7. When 1000 scratchcards are generated in a day, the company wants to stop generating new ones for that day, this should 'push' an update to users who are viewing the interface. This also needs to publish an event which internal and external services can listen to and know when the daily limit has been reached.
+
+**How would you design this?**
