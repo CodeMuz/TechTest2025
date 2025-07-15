@@ -45,7 +45,7 @@ To build the project please use composer:
 composer install  
 
 Tests can be run with:  
-$ ./vendor/bin/phpunit  
+$ php ./vendor/bin/phpunit  
 
 An example of running the ScratchCard Score class via cli is:  
 $ composer run-score   
