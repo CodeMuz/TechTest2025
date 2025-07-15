@@ -1,10 +1,11 @@
 # Overall Goal
 
-Your task is to calculate how many numbers on your scratchcard match a winning list. You will also need to loop through a list of many scratch cards.
+Your task is to calculate the 'score' of a Scratchcard (see https://en.wikipedia.org/wiki/Scratchcard)
+. You must write a program to calculate how many numbers on your scratchcard match a winning list. You will also need to loop through a list of many scratch cards.
 
 # Scratchcard Scoring
 
-Each card (line in a file) contains two lists of numbers separated by a vertical bar (`|`): a list of winning numbers (W) and a list of numbers you have (L). This information is organised in a table (your puzzle input).
+Each card is indicated by a line in a file. The line contains two lists of numbers separated by a vertical bar (`|`): on the left is a list of winning numbers (W) and on the right is a list of numbers you have (L). This information is organised in a table (your puzzle input).
 
 Your task is to determine which numbers (L) appear in the list of winning numbers (W). The first matching number on a card gives that card 1 point, and each additional matching number doubles the card’s point value.
 
@@ -33,14 +34,15 @@ Card 6: 31 18 13 56 72 | 74 77 10 23 35 67 36 11
 
 In total, all cards combined are worth **13 points**.
 
-# PHP
+# PHP template code
 
 - Please complete the code in file src/ScratchcardScore.php   
 - Any other files can be created if needed  
-- There is one test which currently fails. This test needs to pass.  
+- There is a single test in tests/ScratchcardTest.php which currently fails. Upon coding a solution, this test should pass.  
+- Please add any more tests which you think will be useful  
 
-Build the project using composer, e.g.
-composer install
+To build the project please use composer:  
+composer install  
 
 Tests can be run with:  
 $ ./vendor/bin/phpunit  

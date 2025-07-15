@@ -1,9 +1,9 @@
 
-Your solution was so useful that it's been purchased by the company **'Scratchcards R U'**, for a large fee, they would like to hire you as a contractor to continue expanding the functionality. Before you accept this offer, they have the following business expansion proposals below, they would like to know roughly how you might implement them and how long it would take, or what research wou might need to do. Please provide some answers to the following questions:
+Your solution was so useful that it's been purchased by the company **'Scratchcards R U'**, for a large fee, they would like to hire you as a contractor to continue expanding the functionality. Before you accept this offer, they have some ideas of work they would like and need to know roughly how one might implement them and how long it will take. Please provide answers to the following:
 
 ---
 
-### 1. You are tasked to create an interface which users over the internet can use to input scratchcards and verify their scores.
+### 1. They would like to create an interface which users, over the internet, can interact with to input scratchcards and verify their scores.
 
 **What technology would you use for the interface? How would it communicate with your code from part 1?**
 
@@ -11,19 +11,18 @@ Your solution was so useful that it's been purchased by the company **'Scratchca
 
 ### 2. Users would need a way to register and log into the application.
 
-**How would you architect a solution and facilitate this functionality online?**
+**How would you architect a solution and facilitate this functionality?**
 
 ---
 
-### 3. 'Scratchcards R U' would like a way to generate new scratchcards for each unique user, such that a unique user is shown cards with at least score (S) at a custom probability rate P per user. For example:
+### 3. 'Scratchcards R U' would like a way to generate new scratchcards for each unique user, such that a unique user is shown cards with a minimum score (S) at a custom probability rate P per user. Any card below score S for a user will have score 0 (no matches). For example:
 
 ```
-User 1 sees Scratchards with S >= 8 at a rate of P = 0.25 (1 in 4), where S = 8  
-User 2 sees Scratchards with S >= 16 at a rate of P = 0.20 (1 in 5), where S = 16
+User 1 generates Scratchards with Score >= 8 at a rate of P = 0.25 (1 in 4), where S = 8  
+User 2 generates Scratchards with Score >= 16 at a rate of P = 0.20 (1 in 5), where S = 16
 ```
 
-**i)** A user can only generate 5 scratchcards per day.  
-**ii)** The scratchcards should be as random as possible, but if duplicate cards are shown it's not an issue
+**i)** The scratchcards should be as random as possible, but if duplicate numbers are shown to a user it's not an issue
 
 **Using the interface in part 1 and the Authentication in part 2, how would you generate scratchards for each user?**
 
