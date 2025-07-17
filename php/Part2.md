@@ -31,7 +31,6 @@ User 2 generates Scratchards with Score >= 16 at a rate of P = 0.20 (1 in 5), wh
 ### 4. The rate X from part 3 will change at midnight (per user) for scratchards of the next day. The change will be set to a random probability between 0 and 0.5.
 
 **a)** How would you implement this change so that is happens automatically and not manually?  
-**b)** What if the rate change needs to factor in the win rate of all previous scratchcards shown for a user? How would you incorporate previously  shown scratchards to achieve a user global rate change.
 
 ---
 
